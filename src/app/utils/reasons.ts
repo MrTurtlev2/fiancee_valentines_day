@@ -1,4 +1,15 @@
 export const reasons = [
-    'Bo tak',
-    'test'
+    'Bo tak... i już',
+    'jesteśmy nierozłączni',
+    'zawsze przy mnie jesteś',
+    'mocno się angażujesz w nasz związek',
+    'zawsze o mnie myślisz',
+    'uwielbiam z Tobą spędzać czas',
+    'pokazujesz mi świat od innej perspektywy',
+    'wiem że zawsze mogę na Ciebie liczyć',
+    'pięknie wyglądasz',
+    'starasz mi się podobać',
+    'z nikim mi się tak dobrze nie ogląda seriali',
+    'będziesz w przyszłości dobrą mamą',
+    'nie czuję przy Tobie nudy',
 ]

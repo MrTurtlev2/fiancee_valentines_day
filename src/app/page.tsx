@@ -1,7 +1,7 @@
 "use client";
 import styles from "./page.module.css";
 import {reasons} from "@/app/utils/reasons";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import RabbitLoading from './assets/lottie/rabbit_loading.json'
 import Lottie from "lottie-react";
 import Typewriter from 'typewriter-effect';
@@ -10,8 +10,15 @@ export default function Home() {
 
     const [reason, setReason] = useState('');
     const [isLoading, setLoading] = useState(false);
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
 
     const randomize = () => {
+        if (isLoading) return;
+        
         setLoading(true);
         const newReason = reasons[Math.floor(Math.random() * reasons.length)];
 
@@ -20,6 +27,8 @@ export default function Home() {
             setLoading(false);
         }, 2000)
     };
+
+    if (!mounted) return <div className={styles.page}></div>;
 
     return (
         <div className={styles.page}>
@@ -38,7 +47,7 @@ export default function Home() {
                     </div>
                 )}
                 <button className={styles.neonButton} onClick={randomize}>
-                    losuj kochanie
+                    kliknij kochanie
                 </button>
 
             </main>
