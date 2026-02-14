@@ -51,5 +51,22 @@ export const reasons = [
     'umiesz rozmawiać ze mna na trudne tematy',
     'mnie zaskakujesz',
     'dbasz o to żebym dobrze zarabiał :P',
-    'jesteś powodem dla którego chciało mi się robić tą walentynkę'
+    'jesteś powodem dla którego chciało mi się robić tą walentynkę',
+    'z Tobą każdy dzień to wielka niewiadoma',
+    'dzięki tobie staje się lepszą osobą',
+    'masz w sobie niesamowite pokłady współczucia',
+    'z nimim czytanie książek nie jest takie relaksujące',
+    'dzięki Tobie po pracy mam okazję zwiedzić wszystkie sklepy :P',
+    'mam komu opowiedzieć o swoich ulubionych grach',
+    'jesteś bardzo kobieca',
+    'jesteś moim całym światem',
+    'nigdy nie przestałaś walczyć o nasz związek',
+    'skutecznie nakłaniasz mnie do samorozwoju',
+    'nie oceniasz mnie w chwilach słabości',
+    'szanujesz że czasem potrzebuje pograć',
+    'okazujesz mi szacunek',
+    'zawsze czekasz na mój powrót do domu z niecierpliwością',
+    'uczysz mnie tego w czym niedomagam',
+    'kochasz mnie bezwarunkowo',
+    'jesteś ze mną od zawsze'
 ]
