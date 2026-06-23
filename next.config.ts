@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
     },
     basePath: '/fiancee_valentines_day',
     assetPrefix: '/fiancee_valentines_day',
+    
 };
 
 export default nextConfig;
